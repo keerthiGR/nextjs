@@ -33,7 +33,7 @@
     "react-dom": "^19.2.0",
     "react-google-recaptcha": "^3.1.0",
     "react-international-phone": "^4.6.0",
-    "react-slick": "^0.30.2",
+    "react-slick": "^0.30.3",
     "react-toastify": "^10.0.5",
     "react18-input-otp": "^1.1.4",
     "scrollmagic": "^2.0.8",

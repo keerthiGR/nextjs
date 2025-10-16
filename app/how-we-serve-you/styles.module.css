@@ -1,0 +1,74 @@
+
+  .banner_text{
+      color: var(--White-color);
+      font-size: 72px;
+      font-family: Bespoke-sans Light;
+      letter-spacing: 1.8px;
+  }
+  .bgtext2{
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: "Bespoke-sans Light";
+  }
+  .vr {
+   color:   var(  --Black-color);
+      border-left: 4px solid var(--Red-color);
+      padding-left: 8px;
+      opacity: 1;
+   
+    }
+    .heading{
+      font-family: "Bespoke-sans Light";
+      font-size: 46px;
+      line-height: 72px;
+  
+    }
+    .para{
+      font-size: var(--heading2);
+      font-family: "Erode Regular";
+      line-height: 42px;
+      
+    }
+    .para2{
+      font-size: var(--heading4);
+      font-family: "Erode Regular";
+      line-height: 32px;
+    
+    }
+    
+  
+  
+  @media only screen and (max-width: 767px) {
+  .banner_text{
+    
+    font-size: 28px;
+    font-family: "Bespoke-sans Light";
+    }
+    .bgtext2{
+ 
+      font-size: 20px;
+      line-height: 28px;
+    }
+   
+    .heading{
+       font-family: "Erode Regular";
+      font-size: 26px;
+      line-height: 28px;
+    }
+    .para{
+      font-size: 24px;
+      font-family: "Erode Regular";
+      line-height: 36px;
+      
+    }
+    .para2{
+      font-size: 16px;
+      font-family: "Erode Regular";
+      line-height: 30px;
+    
+    }
+  
+  }
+  
+  

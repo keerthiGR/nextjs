@@ -1,0 +1,395 @@
+.testimonialSection {
+  background-color: #ffffff;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.carouselContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.carouselTrack {
+  display: flex;
+  gap: 20px;
+  height: 100%;
+  width: max-content;
+  will-change: transform;
+}
+
+.testimonialCard {
+  flex: 0 0 800px;
+  background-color: #F0F4F7;
+  border: 1px solid #F0F4F7;
+  border-radius: 12px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardBody {
+  padding: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profileSection {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  background-color: #F0F4F7;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 15px auto;
+  border-radius: 50%;
+}
+
+.name {
+  font-family: "Bespoke-sans Light";
+  font-size: 18px;
+  font-weight: 600;
+  color: #0F33EE;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+
+.role {
+  font-family: "Erode Regular";
+  font-size: 12px;
+  color: #404142;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+
+.contentSection {
+  margin-bottom: 20px;
+  flex: 1;
+  position: relative;
+  padding: 20px;
+}
+
+.content {
+  font-family: "Erode Regular";
+  font-size: 16px;
+  line-height: 1.5;
+  color: #191E23;
+  margin-bottom: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: center;
+}
+
+.ratingSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.stars {
+  display: flex;
+  gap: 2px;
+}
+
+.star {
+  transition: fill 0.3s ease;
+}
+
+.ratingText {
+  font-family: "Bespoke-sans Light", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #191E23;
+}
+
+/* Quote decorations */
+.quoteLeftDecor {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 28px;
+  height: 24px;
+  z-index: 1;
+}
+
+.quoteRightDecor {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quoteRightDecor img {
+  width: 28px;
+  height: 24px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .testimonialSection {
+    padding: 30px 0;
+  }
+  
+  .carouselContainer {
+    height: 380px;
+    overflow: hidden;
+  }
+  
+  .carouselTrack {
+    gap: 15px;
+    height: 100%;
+  }
+  
+  .testimonialCard {
+    flex: 0 0 85vw;
+    height: 340px;
+    margin-bottom: 0;
+  }
+  
+  .cardBody {
+    padding: 20px 15px;
+  }
+  
+  .profileSection {
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  
+  .profileImage {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 8px;
+  }
+  
+  .name {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  
+  .role {
+    font-size: 11px;
+  }
+  
+  .contentSection {
+    padding: 15px 10px;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    font-size: 14px;
+    line-height: 1.4;
+    -webkit-line-clamp: 4;
+    text-align: center;
+  }
+  
+  .ratingSection {
+    margin-top: 10px;
+  }
+  
+  .stars {
+    gap: 1px;
+  }
+  
+  .star {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .quoteLeftDecor {
+    width: 20px;
+    height: 18px;
+    top: -5px;
+    left: -5px;
+  }
+  
+  .quoteRightDecor img {
+    width: 20px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonialSection {
+    padding: 20px 0;
+  }
+  
+  .carouselContainer {
+    height: 360px;
+  }
+  
+  .testimonialCard {
+    flex: 0 0 82vw;
+    height: 320px;
+  }
+  
+  .cardBody {
+    padding: 15px 12px;
+  }
+  
+  .profileImage {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .name {
+    font-size: 15px;
+  }
+  
+  .role {
+    font-size: 10px;
+  }
+  
+  .content {
+    font-size: 13px;
+    line-height: 1.4;
+    -webkit-line-clamp: 4;
+  }
+  
+  .contentSection {
+    padding: 12px 8px;
+  }
+}
+
+@media (max-width: 400px) {
+  .carouselContainer {
+    height: 340px;
+  }
+  
+  .testimonialCard {
+    flex: 0 0 80vw;
+    height: 300px;
+  }
+  
+  .content {
+    -webkit-line-clamp: 3;
+  }
+}
+
+/* Animation for all screens */
+.carouselTrack {
+  animation: slideHorizontal 60s linear infinite;
+}
+
+@keyframes slideHorizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-800px * 5));
+  }
+}
+
+/* Adjust animation for different screen sizes */
+@media (max-width: 1200px) and (min-width: 769px) {
+  .carouselTrack {
+    animation: slideHorizontalTablet 60s linear infinite;
+  }
+  
+  @keyframes slideHorizontalTablet {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-700px * 5));
+    }
+  }
+  
+  .testimonialCard {
+    flex: 0 0 700px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+  .carouselTrack {
+    animation: slideHorizontalSmallTablet 60s linear infinite;
+  }
+  
+  @keyframes slideHorizontalSmallTablet {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-600px * 5));
+    }
+  }
+  
+  .testimonialCard {
+    flex: 0 0 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carouselTrack {
+    animation: slideHorizontalMobile 50s linear infinite;
+  }
+  
+  @keyframes slideHorizontalMobile {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-85vw * 5));
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .carouselTrack {
+    animation: slideHorizontalSmallMobile 50s linear infinite;
+  }
+  
+  @keyframes slideHorizontalSmallMobile {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-82vw * 5));
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .carouselTrack {
+    animation: slideHorizontalXSmallMobile 50s linear infinite;
+  }
+  
+  @keyframes slideHorizontalXSmallMobile {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-80vw * 5));
+    }
+  }
+}
+
+/* Pause animation on hover for desktop */
+@media (min-width: 769px) {
+  .carouselContainer:hover .carouselTrack {
+    animation-play-state: paused;
+  }
+}
+
+/* Touch-friendly for mobile */
+@media (max-width: 768px) {
+  .carouselContainer {
+    -webkit-overflow-scrolling: touch;
+  }
+}

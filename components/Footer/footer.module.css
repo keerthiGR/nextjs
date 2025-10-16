@@ -1,0 +1,23 @@
+.footerbg{
+    background-color: #F0F4F7;
+}
+.footerheading{
+  font-size: 16px !important;
+  font-family: "BespokeSans-Medium";
+  font-size: 21px;
+  line-height: -0.4px;
+  color: #191E23;
+
+}
+.footercontent{
+  font-size: 16px !important;
+  font-family: "Bespoke-sans Light";
+  font-size: 21px;
+  line-height: -0.4px;
+  color: #191E23;
+  text-decoration: none !important;
+}
+.commonlink,.commonlink:hover{
+  text-decoration: none;
+  color:#191E23;
+}

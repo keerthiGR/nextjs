@@ -1,0 +1,130 @@
+.connect{
+  background-image: url('../../public/images/AI/cta.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner_text{
+    color: var(--White-color);
+    font-size: 72px;
+    font-family: Bespoke-sans Light;
+    letter-spacing: 1.8px;
+}
+.vr {
+ color:   var(  --Black-color);
+    border-left: 4px solid var(--Red-color);
+    padding-left: 8px;
+    opacity: 1;
+ 
+  }
+  .heading{
+    font-family: "Bespoke-sans Light";
+    font-size: 46px;
+    line-height: 72px;
+
+  }
+  .para{
+    font-size: var(--heading2);
+    font-family: "Erode Regular";
+    line-height: 42px;
+    
+  }
+  .para2{
+    font-size: var(--heading4);
+    font-family: "Erode Regular";
+    line-height: 32px;
+  
+  }
+  .accbody{
+    font-family: "Erode Regular";
+    line-height: 32px;
+    font-size: var(--heading4);
+}
+.msg {
+    font-family: "Erode Semibold";
+    font-size: 21px;
+    color: #191E23;
+    font-weight: 600;
+}
+.accitem{
+  
+    border-bottom: 1px solid #C7D5E6;
+    opacity: 1;
+}
+.accbutton:focus{
+    box-shadow: none;
+    background-color: var(--white-color);
+    
+}
+.accbutton:not(.collapsed) {
+    background-color:var(--white-color);
+ 
+}
+.accbutton:after {
+  background-image: url('../../public/images/AI/right.svg') !important;
+  width: 48px !important;
+  height: 48px !important;
+  background-size: 48px auto !important;
+  /* transform: rotate(-270deg); */
+}
+
+
+
+.commonbtn{
+  font-size: 16px !important;
+  font-family: "BespokeSans-Medium";
+  color: #000000 !important;
+  opacity: var(--opacity);
+  text-align: Center;
+  line-height: 20px;
+  border: 1px solid #191E23;
+  border-radius: 0px;
+  width: 158px;
+  height: 38px;
+  background-color: transparent;
+  background: linear-gradient(to right, black 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+}
+.commonbtn:hover{
+  background-position: left bottom;
+  color: var(--White-color) !important;
+}
+@media only screen and (max-width: 991px) {
+  .commonbtn {
+      font-size: 15px !important;
+  }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+.banner_text{
+  
+  font-size: 28px;
+  font-family: "Bespoke-sans Light";
+  }
+  .heading{
+     font-family: "Erode Regular";
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .para{
+    font-size: 24px;
+    font-family: "Erode Regular";
+    line-height: 36px;
+    
+  }
+  .para2{
+    font-size: 16px;
+    font-family: "Erode Regular";
+    line-height: 30px;
+  
+  }
+  .msg {
+ 
+    font-size: 18px;
+  
+}
+}
+

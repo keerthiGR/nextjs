@@ -1,0 +1,44 @@
+.heading{
+    text-align: center;
+    font-size: 46px;
+    line-height: 72px;
+    font-family: Bespoke-sans Light;
+    letter-spacing: 0px;
+    color: #191E23;
+    text-transform: uppercase;
+    opacity: 1;
+    
+}
+.content{
+    text-align: left;
+    font-size: 21px;
+    font-family: Erode Regular;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #191E23;
+    opacity: 1;
+}
+
+.subheading{
+    text-align: left;
+    font-size: 30px;
+    font-family: Erode Regular;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #191E23;
+}
+.linkcontent{
+    /* text-decoration: none; */
+    color: #191E23;
+}
+
+@media only screen and (max-width: 500px) {
+   .heading {
+          font-size: 32px;
+          line-height: 48px;
+        }
+    .subheading{
+            font-size: 28px;
+            line-height: 32px;
+        }
+    }

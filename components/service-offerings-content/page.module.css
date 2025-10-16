@@ -1,0 +1,34 @@
+.banner_text{
+  color: var(--White-color);
+  font-size: 44px;
+  font-family: Bespoke-sans Light;
+  letter-spacing: 1.6px;
+}
+@media only screen and (min-width: 1200px) and (max-width:1496px) {
+.banner_text{
+    
+  font-size: 36px;
+  font-family: Bespoke-sans Light;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+.banner_text{
+    
+  font-size: 28px !important;
+  font-family: Bespoke-sans Light;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .banner_text{
+    
+    font-size: 36px;
+    font-family: Bespoke-sans Light;
+    }
+  }
+@media only screen and (max-width: 767px) {
+  .banner_text{
+    
+    font-size: 28px;
+    font-family: Bespoke-sans Light;
+    }
+  }

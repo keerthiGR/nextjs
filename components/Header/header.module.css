@@ -1,0 +1,116 @@
+.headercontent1{
+    font-size: 15px !important;
+    font-family: "BespokeSans-Medium";
+    color: #191E23 !important;
+    opacity: var(--opacity);
+    line-height: 20px;
+    text-decoration: none;
+    position: relative;
+}
+.subheadercontent1{
+    font-size: 15px !important;
+    font-family: "Bespoke-sans Light";
+    color: #191E23 !important;
+    opacity: var(--opacity);
+    line-height: 20px;
+    text-decoration: none;
+    position: relative;
+}
+.headercontent {
+    font-size: 15px !important;
+    font-family: "BespokeSans-Medium";
+    color: #191E23 !important;
+    opacity: var(--opacity);
+    line-height: 20px;
+    text-decoration: none;
+    position: relative;
+    width: max-content;
+}
+
+.headercontent {
+    font-size: 15px !important;
+    font-family: "BespokeSans-Medium";
+    color: #191E23 !important;
+    opacity: var(--opacity);
+    line-height: 20px;
+    text-decoration: none;
+    position: relative;
+    width: max-content;
+}
+.subheadercontent {
+    font-size: 15px !important;
+    font-family: "Bespoke-sans Light";
+    color: #191E23 !important;
+    opacity: var(--opacity);
+    line-height: 20px;
+    text-decoration: none;
+    position: relative;
+    width: max-content;
+}
+
+
+.headercontent::after {
+    bottom: 0px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    width: 0;
+}
+.subheadercontent::after {
+    bottom: 0px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transition: width 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    width: 0;
+}
+
+/* .headercontent:hover::after{
+    width: 100%;
+    border: 2px solid #F71735;
+} */
+.subheadercontent:hover::after{
+    width: 100%;
+    border: 2px solid #F71735;
+}
+.active .headercontent:hover::after {
+    width: auto; 
+    border: none;
+}
+
+.active {
+    border-bottom: 4px solid #F71735 !important;
+    width: max-content;
+}
+.btn{
+    font-size: 16px !important;
+    font-family: "BespokeSans-Medium";
+    color: #000000 !important;
+    opacity: var(--opacity);
+    text-align: Center;
+    line-height: 20px;
+    border: 1px solid #191E23;
+    border-radius: 0px;
+    width: 158px;
+    height: 38px;
+    background-color: transparent;
+    background: linear-gradient(to right, black 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+.btn:hover{
+    background-position: left bottom;
+    color: var(--White-color) !important;
+}
+@media only screen and (max-width: 991px) {
+    .btn {
+        font-size: 15px !important;
+    }
+  
+}

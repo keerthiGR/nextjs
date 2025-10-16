@@ -1,5 +1,5 @@
 // import Contact from '../../components/contact-content/page';
-import Contact from "../components/Contact";
+import ContactForm from "../components/Contact";
 
 export const metadata = {
     title: "Contact Us - Get in Touch with i11Labs",
@@ -13,5 +13,5 @@ export const metadata = {
 };
 
 export default function contact() {
-    return <Contact />;
+    return <ContactForm />;
 }

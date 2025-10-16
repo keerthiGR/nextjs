@@ -15,14 +15,7 @@
     "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/contact/page.css",
       "static/chunks/app/contact/page.js"
-    ],
-    "/contact-thank/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/contact-thank/page.css",
-      "static/chunks/app/contact-thank/page.js"
     ]
   }
 }
